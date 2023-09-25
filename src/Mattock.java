@@ -1,8 +1,13 @@
-public class Mattock {
+public class Mattock extends D_Tool {
 
-    private int MSRP = 55;
+    private static double MSRP = 55;
+    private static String toolName = "Mattock";
     public double getMSRP() {
         return MSRP;
+    }
+
+    public String getToolName() {
+        return toolName;
     }
 
 }

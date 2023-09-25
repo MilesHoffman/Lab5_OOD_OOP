@@ -1,8 +1,13 @@
-public class Laser {
+public class Laser extends M_Tool {
 
-    private int MSRP = 50;
+    private static double MSRP = 50;
+    private static String toolName = "Laser";
     public double getMSRP() {
         return MSRP;
+    }
+
+    public String getToolName() {
+        return toolName;
     }
 
 }

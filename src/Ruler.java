@@ -1,8 +1,13 @@
-public class Ruler {
+public class Ruler extends M_Tool {
 
-    private int MSRP = 15;
+    private static double MSRP = 15;
+    private static String toolName = "Ruler";
     public double getMSRP() {
         return MSRP;
     }
-//sadsaddasdas
+
+    public String getToolName() {
+        return toolName;
+    }
+
 }
